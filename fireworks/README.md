@@ -1,16 +1,37 @@
-# fireworks
+Fireworks - Flutter Firebase App
 
-A new Flutter project.
+A streamlined Flutter project focused on efficient Firebase data management and real-time integration.
 
-## Getting Started
+📌 Overview
 
-This project is a starting point for a Flutter application.
+This repository contains the fireworks mobile application, designed to showcase clean Flutter architecture and Firebase connectivity.
 
-A few resources to get you started if this is your first Flutter project:
+⚡ Quick Start
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone & Navigate:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Bash
+
+git clone https://github.com/fatmaresuloglu/fireworks.git
+cd fireworks/fireworks
+Get Packages:
+
+Bash
+
+flutter pub get
+Firebase Setup:
+
+Configure your Firebase project via Firebase Console.
+
+Ensure your google-services.json or GoogleService-Info.plist is in the correct directory.
+
+Launch:
+
+Bash
+flutter run
+🛠 Tech Stack
+Framework: Flutter
+
+Backend: Firebase (Firestore/Auth)
+
+Language: Dart
